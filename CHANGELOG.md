@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of chef-rundeck.
 
+## 0.2.1:
+
+* Make chef recipe git url an attribute to enable ability to use own fork of chef-rundeck sinatra app
+
 ## 0.2.0:
 
 * Version bump to Rundeck

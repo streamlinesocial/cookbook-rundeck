@@ -98,6 +98,8 @@ Attributes are split in files semantically:
 
 * `node['rundeck']['chef']['port']` - Hardcoded Chef client name in case data bags are not available
 
+* `node['rundeck']['chef']['repo']` - Git repo if different than the default sinatra app.
+
 ## ssh.rb
 
 * `node['rundeck']['ssh']['user']` - Default SSH user with whom Rundeck will login to the servers.
