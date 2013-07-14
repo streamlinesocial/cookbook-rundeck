@@ -6,6 +6,7 @@ This file is used to list changes made in each version of chef-rundeck.
 
 * Make chef recipe git url an attribute to enable ability to use own fork of chef-rundeck sinatra app
 * Add attrib for the gem_file so we can alter it per the git repo
+* Add attrib gem_file reference to manage the chef_gem source
 
 ## 0.2.0:
 

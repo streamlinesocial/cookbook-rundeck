@@ -43,7 +43,7 @@ end
 
 git "#{Chef::Config['file_cache_path']}/chef-rundeck-gem" do
 	repository node['rundeck']['chef']['repo']
-	reference 'master'
+	reference node['rundeck']['chef']['reference']
 	action :sync
 	notifies :install, 'chef_gem[chef-rundeck]'
 end

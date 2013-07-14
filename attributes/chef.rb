@@ -21,4 +21,5 @@ default['rundeck']['chef']['port']        = 9998
 default['rundeck']['chef']['client_key']  = ''
 default['rundeck']['chef']['client_name'] = ''
 default['rundeck']['chef']['repo']        = 'git://github.com/priestjim/chef-rundeck-gem.git'
+default['rundeck']['chef']['reference']   = 'master'
 default['rundeck']['chef']['gem_file']    = 'chef-rundeck-0.2.2.gem'
